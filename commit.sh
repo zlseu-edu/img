@@ -1,5 +1,6 @@
 #!/bin/bash
 
 git add *
-git commit -m $1
+read commitstr
+git commit -m commitstr
 git push origin	master
